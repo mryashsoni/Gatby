@@ -33,7 +33,7 @@ export const projectsData = [
     info: '.',
     info2: ' .',
     url: 'https://commerce-js.netlify.app',
-    repo: 'https://github.com/mryashsoni/ecommerce', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,7 +42,7 @@ export const projectsData = [
     info: '.',
     info2: '.',
     url: 'https://html-css-mini-projects.netlify.app',
-    repo: 'https://github.com/mryashsoni/mini-projects', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -51,15 +51,15 @@ export const projectsData = [
     info: '.',
     info2: '.',
     url: 'https://covid19statswebsite.netlify.app/',
-    repo: 'https://github.com/mryashsoni/covidmeter', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '+91-8770569251',
+  cta: '+91',
   btn: 'yashsoni1516@gmail.com',
-  email: 'yashsoni@gmail.com',
+  email: '',
 };
 
 // FOOTER DATA
@@ -83,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/mryashsoni',
+      url: '',
     },
   ],
 };
